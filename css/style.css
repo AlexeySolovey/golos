@@ -699,12 +699,94 @@ section.winner .winner-text h4 {
 /*****************************
 			news
 *****************************/
+section.news {
+  padding: 40px;
+}
+section.news h2 {
+  text-align: center;
+  margin: 0 auto 40px;
+  font-size: 22px;
+}
+section.news ul li {
+  padding: 12px 12px 19px;
+  border: 1px solid #f2f2f2;
+  margin-bottom: 20px;
+  cursor: pointer;
+  border-radius: 5px;
+}
+section.news ul li .data {
+  float: left;
+  margin-right: 40px;
+  font-size: 20px;
+  position: relative;
+  bottom: 5px;
+}
+section.news ul li .data span {
+  font-size: 24px;
+}
+section.news ul li:hover {
+  background-color: #9d5be4;
+  color: white;
+}
 /*****************************
 			subscribe
 *****************************/
+section.subscribe {
+  padding: 40px;
+  background-color: #63deee;
+  color: white;
+}
+section.subscribe form {
+  display: table;
+  margin: 0 auto;
+}
+section.subscribe form img {
+  margin-right: 20px;
+  position: relative;
+  top: 8px;
+}
+section.subscribe form input {
+  background: transparent;
+  line-height: inherit;
+  border: none;
+  color: white;
+  border-bottom: 1px solid white;
+  padding: 5px 8px;
+}
+section.subscribe form input[type="placeholder"] {
+  color: white !important;
+}
+section.subscribe form input[type="search"]::-webkit-input-placeholder {
+  color: white !important;
+}
+section.subscribe form input[type="search"]::-moz-placeholder {
+  color: white !important;
+}
+section.subscribe button {
+  margin-left: 60px;
+  padding: 3px 25px;
+}
 /*****************************
 			organizers
 *****************************/
+section.organizers {
+  background-color: #f2f2f2;
+  padding: 20px;
+}
+section.organizers organizers-item {
+  line-height: 11;
+  float: left;
+  height: 130px;
+}
+section.organizers organizers-item img {
+  width: 220px;
+  display: table;
+  margin: 0 auto;
+}
+section.organizers .middle-img {
+  position: relative;
+  top: 35px;
+}
 /*****************************
 			footer
 *****************************/

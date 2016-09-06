@@ -624,14 +624,99 @@ section.winner{
 /*****************************
 			news
 *****************************/
+section.news{
+    padding:40px;
+     h2{
+        text-align:center;
+        margin: 0 auto 40px;
+        font-size: 22px;
+    }
+     ul{
+         li{
+             padding: 12px 12px 19px;
+             border:1px solid @light-grey;
+             margin-bottom:20px;
+             cursor:pointer;
+            border-radius: 5px;
+             .data{
+                 float:left;
+                 margin-right:40px;
+                 font-size:20px;
+                 position: relative;
+                 bottom: 5px;
+                 span{
+                     font-size:24px;
+                 }
+             }
+         }
+         li:hover{
+             background-color:@light-violet;
+             color:white;
+         }
+     }
+}
 
 /*****************************
 			subscribe
 *****************************/
+section.subscribe{
+    padding:40px;
+    background-color:@blue;
+    color:white;
+    form{
+        display:table;
+        margin:0 auto;
+        img{
+            margin-right: 20px;
+            position: relative;
+            top: 8px;
+        }
+        input{
+            background: transparent;
+        line-height: inherit;
+        border: none;
+        color: white;
+        border-bottom: 1px solid white;
+        padding: 5px 8px;
+        }
+        input[type="placeholder"] { 
+            color:white !important;
+        }
+        input[type="search"]::-webkit-input-placeholder {
+            color:white !important;
+        } 
+        input[type="search"]::-moz-placeholder {
+            color:white !important;
+        }
+    }
+    button{
+        margin-left: 60px;
+        padding: 3px 25px;
+    }
+}
 
 /*****************************
 			organizers
 *****************************/
+section.organizers{
+    background-color:@light-grey;
+    padding: 20px;
+        organizers-item{
+            line-height: 11;
+            float: left;
+            height: 130px;
+            img{
+                width: 220px;
+                display:table;
+                margin:0 auto;
+            }
+
+    }
+        .middle-img{
+                position: relative;
+                top: 35px;
+            }
+}
 
 /*****************************
 			footer
