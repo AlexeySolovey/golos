@@ -201,6 +201,9 @@ table {
   padding: 5px 12px;
   font-size: 16px;
 }
+.violet-button:hover {
+  color: #b2b2b2;
+}
 /*****************************
 			header
 *****************************/
@@ -456,15 +459,227 @@ section.ensemble .ensemble-block .ensemble-text p {
 /*****************************
 			prizes
 *****************************/
+section.prizes {
+  padding: 45px;
+}
+section.prizes h2 {
+  display: table;
+  margin: 0 auto 40px;
+  font-size: 22px;
+}
+section.prizes .prizes-items {
+  width: 75%;
+  display: table;
+  margin: 0 auto;
+}
+section.prizes .prizes-items .prizes-item {
+  float: left !important;
+  background-color: #f2f2f2;
+  border-left: 1px solid #b2b2b2;
+  border-right: 1px solid #b2b2b2;
+  margin-right: 8px;
+  width: 160px;
+  border-radius: 8px;
+  margin-left: 20px;
+}
+section.prizes .prizes-items .prizes-item img {
+  width: 160px;
+}
+section.prizes .prizes-items .prizes-item .prize-info-img {
+  background-color: white;
+  border-radius: 32px;
+  display: table;
+  margin: 0 auto 20px;
+  padding: 10px;
+  width: 50px;
+  height: 50px;
+}
+section.prizes .prizes-items .prizes-item .prize-info-img img {
+  width: 30px;
+  display: table;
+  margin: 0 auto;
+}
+section.prizes .prizes-items .prizes-item .prize-info {
+  padding: 25px;
+  text-align: center;
+}
+section.prizes .prizes-items .prizes-item .prize-bottom-img {
+  height: 50px;
+  width: 160px;
+  border-radius: 0 0 6px 6px;
+  background-color: white !important;
+}
+section.prizes .prizes-items .item-1 .prize-bottom-img {
+  background: url('../images/sponsor-1plus1.png') no-repeat center;
+  background-size: contain;
+}
+section.prizes .prizes-items .item-2 .prize-bottom-img {
+  background: url('../images/sponsor-2.png') no-repeat center;
+  background-size: contain;
+}
+section.prizes .prizes-items .item-3 .prize-bottom-img {
+  background: url('../images/sponsor-1.png') no-repeat center;
+  background-size: contain;
+}
+/*****************************
+			carusel
+*****************************/
+.owl-item {
+  width: auto !important;
+}
+/*****************************
+			wictory
+*****************************/
+section.wictory {
+  background-color: #f2f2f2;
+  border-top: 1px solid #b2b2b2;
+  padding: 20px 20px 60px;
+}
+section.wictory h3 {
+  text-align: center;
+  font-size: 22px;
+  margin: 25px 0 40px;
+}
+section.wictory h4 {
+  text-align: center;
+  font-size: 20px;
+  margin: 25px 0 50px;
+}
+section.wictory .step-img {
+  background: url('../images/svg/step_3.svg') no-repeat center;
+  background-size: contain;
+  width: 100px;
+  height: 100px;
+}
+section.wictory img {
+  display: table;
+  margin: 0 auto 40px;
+}
+section.wictory .step-number {
+  background-color: white;
+  padding: 10px;
+  width: auto;
+  display: block;
+  margin: 0 auto;
+  border-radius: 24px;
+  width: 40px;
+  height: 40px;
+}
+section.wictory span {
+  display: table;
+  margin: 0 auto;
+  font-size: 20px;
+}
+section.wictory button {
+  display: table;
+  margin: 0 auto;
+  padding: 3px 25px;
+}
 /*****************************
 			ensemble
 *****************************/
 /*****************************
 			jury
 *****************************/
+section.jury {
+  padding: 45px;
+}
+section.jury h2 {
+  display: table;
+  margin: 0 auto 40px;
+  font-size: 22px;
+}
+section.jury img {
+  width: 100%;
+}
+section.jury .jury-information {
+  border: 1px solid #f2f2f2;
+  padding: 20px;
+}
+section.jury .jury-information p {
+  margin: 0 12px 10px;
+  line-height: 19px;
+}
+section.jury .jury-information .jury-circle {
+  background-color: white;
+  border-radius: 70px;
+  overflow: hidden;
+  width: 110px;
+  height: 110px;
+  margin: 0 auto 20px;
+}
+section.jury .jury-information .circle-image {
+  background: url('../images/jury.jpg') no-repeat top;
+  background-size: cover;
+  width: 115px;
+  height: 115px;
+}
+section.jury .jury-information h3 {
+  display: table;
+  margin: 0 auto;
+  font-size: 18px;
+  margin-bottom: 20px;
+}
+section.jury .jury-item {
+  text-align: center;
+  border-radius: 8px;
+  margin-left: 33px;
+}
+section.jury .jury-item h3 {
+  display: table;
+  margin: 0 auto;
+  font-size: 18px;
+  margin-bottom: 20px;
+}
+section.jury .jury-item p {
+  margin: 0 12px 10px;
+  line-height: 19px;
+}
+section.jury .jury-item .jury-img {
+  background: url('../images/jury.jpg') no-repeat center 15%;
+  background-size: cover;
+  width: 100%;
+  height: 305px;
+  margin-bottom: 25px;
+}
 /*****************************
 			winner
 *****************************/
+section.winner {
+  background-color: #9d5be4;
+  padding: 40px 80px;
+}
+section.winner iframe {
+  border-radius: 12px 12px 0 0;
+}
+section.winner h2 {
+  text-align: center;
+  color: white;
+  margin: 0 auto 40px;
+  font-size: 22px;
+}
+section.winner .winner-text {
+  background-color: white;
+  color: black;
+  padding: 20px 50px 40px;
+  position: relative;
+  bottom: 3px;
+  border-radius: 0 0 12px 12px;
+}
+section.winner .winner-text p {
+  line-height: 22px;
+}
+section.winner .winner-text h3 {
+  text-align: center;
+  margin: 0 auto 5px;
+  font-size: 18px;
+}
+section.winner .winner-text h4 {
+  text-align: center;
+  margin: 0 auto 30px;
+  font-size: 18px;
+  color: #b2b2b2;
+}
 /*****************************
 			news
 *****************************/
