@@ -1,0 +1,166 @@
+.gitar, .google, .mail, .microphone, .note, .play, .scroll-down, .vk, .win1, .win2, .win3, .youtube, .arrow-left, .arrow-left-hov, .arrow-left-lilac, .arrow-right, .arrow-right-hov, .arrow-right-lilac, .camera, .contact-mail, .contact-map, .contact-phone, .contact-skype, .facebook, .form-list, .form-mail, .form-user{
+	background: url(sprites.png) no-repeat;
+}
+
+.gitar{
+	background-position: -275px -176px ;
+	width: 138px;
+	height: 138px;
+}
+
+.google{
+	background-position: -707px -5px ;
+	width: 24px;
+	height: 20px;
+}
+
+.mail{
+	background-position: -716px -49px ;
+	width: 32px;
+	height: 22px;
+}
+
+.microphone{
+	background-position: 0 -171px ;
+	width: 138px;
+	height: 138px;
+}
+
+.note{
+	background-position: 0 0;
+	width: 80px;
+	height: 161px;
+}
+
+.play{
+	background-position: -722px -157px ;
+	width: 32px;
+	height: 32px;
+}
+
+.scroll-down{
+	background-position: -754px -13px ;
+	width: 14px;
+	height: 24px;
+}
+
+.vk{
+	background-position: -720px -93px ;
+	width: 24px;
+	height: 14px;
+}
+
+.win1{
+	background-position: -546px 0;
+	width: 150px;
+	height: 148px;
+}
+
+.win2{
+	background-position: -391px 0;
+	width: 150px;
+	height: 148px;
+}
+
+.win3{
+	background-position: -230px 0;
+	width: 150px;
+	height: 148px;
+}
+
+.youtube{
+	background-position: -724px -122px ;
+	width: 24px;
+	height: 18px;
+}
+
+.arrow-left{
+	background-position: -550px -177px ;
+	width: 40px;
+	height: 29px;
+}
+
+.arrow-left-hov{
+	background-position: -448px -176px ;
+	width: 40px;
+	height: 29px;
+}
+
+.arrow-left-lilac{
+	background-position: -494px -218px ;
+	width: 40px;
+	height: 29px;
+}
+
+.arrow-right{
+	background-position: -547px -218px ;
+	width: 40px;
+	height: 29px;
+}
+
+.arrow-right-hov{
+	background-position: -447px -217px ;
+	width: 40px;
+	height: 29px;
+}
+
+.arrow-right-lilac{
+	background-position: -499px -176px ;
+	width: 40px;
+	height: 29px;
+}
+
+.camera{
+	background-position: -137px -171px ;
+	width: 138px;
+	height: 138px;
+}
+
+.contact-mail{
+	background-position: -714px -212px ;
+	width: 24px;
+	height: 16px;
+}
+
+.contact-map{
+	background-position: -707px -234px ;
+	width: 18px;
+	height: 24px;
+}
+
+.contact-phone{
+	background-position: -678px -211px ;
+	width: 24px;
+	height: 24px;
+}
+
+.contact-skype{
+	background-position: -617px -221px ;
+	width: 24px;
+	height: 24px;
+}
+
+.facebook{
+	background-position: -648px -213px ;
+	width: 14px;
+	height: 24px;
+}
+
+.form-list{
+	background-position: -686px -177px ;
+	width: 24px;
+	height: 24px;
+}
+
+.form-mail{
+	background-position: -651px -182px ;
+	width: 24px;
+	height: 16px;
+}
+
+.form-user{
+	background-position: -620px -177px ;
+	width: 22px;
+	height: 24px;
+}
+
